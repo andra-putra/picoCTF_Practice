@@ -1,0 +1,13 @@
+Using online converter (https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html) a pattern can be seen when comparing hex values to "picoCTF{}" 
+
+Converting "灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸弰摤捤㤷慽" to Hex:
+7069 636F 4354 467B 3136 5F62 6974 735F 696E 7374 3334 645F 6F66 5F38 5F30 6464 6364 3937 617D
+
+The text "picoCTF{}" in Hex:
+70 69 63 6F 43 54 46 7B 7D
+
+Final solution in Hex:
+70 69 63 6F 43 54 46 7B 31 36 5F 62 69 74 73 5F 69 6E 73 74 33 34 64 5F 6F 66 5F 38 5F 30 64 64 63 64 39 37 61 7D
+
+Final solution in ASCII text:
+picoCTF{16_bits_inst34d_of_8_0ddcd97a}

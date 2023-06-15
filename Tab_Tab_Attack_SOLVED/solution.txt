@@ -1,0 +1,2 @@
+1. Unzip file using "unzip"
+2. Just launch the exe inside the folders
